@@ -22,7 +22,7 @@
 git remote add origin https://github.com/pianoguy-jo/biz_2021_01_403_java.git
 
 
-※ github 업로드 금지 설정
+※ github 업로드 금지 설정 햣
 로컬 폴더에 .gitignore 파일 생성
 touch . gitignore
 업로드 금지 목록 작성
