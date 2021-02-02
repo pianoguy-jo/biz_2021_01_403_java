@@ -20,5 +20,4 @@ public class Hello {
 		System.out.println("반갑습니다");
 	}
 	
-	
 }
