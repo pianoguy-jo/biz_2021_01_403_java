@@ -43,6 +43,34 @@ public class Var_03 {
 		System.out.print(num1);
 		System.out.print(" = ");
 		System.out.println(intDan * num1);
+		
+		num1 += 1;
+		System.out.print(intDan);
+		System.out.print(" X ");
+		System.out.print(num1);
+		System.out.print(" = ");
+		System.out.println(intDan * num1);
+		
+		num1 += 1;
+		System.out.print(intDan);
+		System.out.print(" X ");
+		System.out.print(num1);
+		System.out.print(" = ");
+		System.out.println(intDan * num1);
+		
+		num1 += 1;
+		System.out.print(intDan);
+		System.out.print(" X ");
+		System.out.print(num1);
+		System.out.print(" = ");
+		System.out.println(intDan * num1);
+		
+		num1 += 1;
+		System.out.print(intDan);
+		System.out.print(" X ");
+		System.out.print(num1);
+		System.out.print(" = ");
+		System.out.println(intDan * num1);
 
 	}
 
