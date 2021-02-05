@@ -7,7 +7,7 @@ public class Loop_01 {
 		for(int num = 100 ; num <= 1000; num +=100) {
 			
 			System.out.println(num);
-			}
+			
 		
 		System.out.println("=====================");
 		
@@ -48,10 +48,7 @@ public class Loop_01 {
 			System.out.println((num +1) + ".홍길동");
 			
 		}
-			
-			
-			
-			
+		}	
 			
 		}
 		

@@ -18,7 +18,7 @@ public class Logic_04 {
 		
 		boolean bYes = num % 2 == 0;
 		if(bYes) {
-			System.out.println(num + "는 짝수")
+			System.out.println(num + "는 짝수");
 		}
 	}
 	
