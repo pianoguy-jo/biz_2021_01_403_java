@@ -20,5 +20,5 @@ public class pay_05 {
 			pay -= (paper *count);
 			
 		}
-		
+	}
 		}
