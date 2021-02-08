@@ -25,7 +25,7 @@ public class Loop_01 {
 		
 		for(int num1 = 0 ; num < 10 ; num += 1 ) {
 			
-			int num1 = (num + 1) * 100;
+			int num = (num + 1) * 100;
 			System.out.println(num1);
 		}
 		
