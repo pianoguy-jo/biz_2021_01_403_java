@@ -10,7 +10,7 @@ public class App_02 {
 		System.out.print("숫자입력( 2 ~ 9 )>> ");
 		int dan = scan.nextInt();
 
-		boolean danD = dan > 1;
+		boolean danD = dan > 1 ;
 		boolean danU = dan < 10;
 
 		System.out.println("===========================");
@@ -22,7 +22,8 @@ public class App_02 {
 		} else if (!danU) {
 			System.out.println("숫자를 잘 못 입력했습니다.");
 
-		} else if (danD && danU) {
+		}
+		if (danD && danU) {
 			for (int i = 0; i < 8; i++) {
 				int num = i + 2;
 

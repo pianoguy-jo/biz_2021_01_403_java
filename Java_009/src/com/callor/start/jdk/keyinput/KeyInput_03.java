@@ -10,7 +10,9 @@ public class KeyInput_03 {
 	
 	
 	
+	int intRand = rnd.nextInt(100);
 	
+	System.out.print("숫자를 입력하시요 : ");
 	int num1 = scan.nextInt();
 	
 	
