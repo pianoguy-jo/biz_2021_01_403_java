@@ -34,9 +34,11 @@ public class Random_3 {
         	// 0 ~ 99중 임의 수 1개를 만들어서 변수 num에 저장해 달라
         	// +1을 하게되면 1 ~ 100 까지 중 임의 수 1개를 만들어
         	// 변수 num에 저장해 달라
+        	
+        	int i = 0;
         	int num = rnd.nextInt(100) + 1;
         	System.out.print(num + "\t");
-        	if( (i +1 ) % 5 == 0) {
+        	if( (i + 1 ) % 5 == 0) {
         		System.out.println();
         	}
         }		

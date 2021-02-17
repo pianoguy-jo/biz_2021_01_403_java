@@ -9,7 +9,7 @@ public class While_03 {
 			
 			//매우 불편한 코드
 			if(index % 3 > 0) {
-				System.out.println("3의 배수가 아님")
+				System.out.println("3의 배수가 아님");
 			}
 			
 			// 정상적인 코드

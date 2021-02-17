@@ -15,10 +15,16 @@ public class pay_05 {
 		//               조건에 부여하여 반복 수행을 결정
         //                조건문이 true 일때 반복하고, 조건문 false가 되면 종료한다.
 		
-		While (pay > 0) {
+		While (pay > 0 );
+		{
 			int count = pay / paper;
 			pay -= (paper *count);
 			
 		}
+	}
+
+	private static void While(boolean b) {
+		// TODO Auto-generated method stub
+		
 	}
 		}

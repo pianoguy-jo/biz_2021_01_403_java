@@ -22,18 +22,18 @@ public class Loop_01 {
 		 * 
 		 */
 				
-		
-		for(int num1 = 0 ; num < 10 ; num += 1 ) {
+		}
+		for(int num = 0 ; num < 10 ; num += 1 ) {
 			
-			int num = (num + 1) * 100;
-			System.out.println(num1);
+			num = (num + 1) * 100;
+			System.out.println(num);
 		}
 		
 		System.out.println("===============");
 		
-		for(int num = 1 ; num <= 10 ; num += 1) {
+		for(int num1 = 1 ; num1 <= 10 ; num1 += 1) {
 			
-			System.out.println(num + ".홍길동");
+			System.out.println(num1 + ".홍길동");
 		}
 		System.out.println("===============");
 		
@@ -42,15 +42,13 @@ public class Loop_01 {
 			
 			
 		System.out.println("===============");
+		}
 			
 		for(int num = 0 ; num < 10 ; num += 1) {
-			int num 
+			
 			System.out.println((num +1) + ".홍길동");
 			
 		}
-		}	
-			
-		}
+		}			
 		
 	}
-}

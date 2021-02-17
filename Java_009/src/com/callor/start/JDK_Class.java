@@ -17,7 +17,7 @@ public class JDK_Class {
 		// 실수형 변수
 		float fNum1 = 0.0f;
 		Float fNum2 = 0.0f;
-		Float fNum3 = new Float(0.0)
+		Float fNum3 = new Float(0.0);
 		
 		// 문자 열 형변수
 		String str1 = "Korea";

@@ -16,9 +16,9 @@ public class BoolAlge_01 {
 		boolean bYes2 = false; // 0
 		
 		// && : AND
-		System.out.println(bYes1 && bNo);
+		System.out.println(bYes1 && bYes2);
 		// ||(filter 기호) : OR
-		Sysete.out.println(bYes2 || bNo);
+		System.out.println(bYes2 || bYes1);
 		
 		// bYes  OR bYes2
 		// 1     +    0    =   1
@@ -40,17 +40,17 @@ public class BoolAlge_01 {
 		// 0        *      0      ==  0
 		// false    AND    false  == false
 		
-		System.out.println("==============================")
+		System.out.println("==============================");
 		System.out.println("t && t : " + (true && true));
 		System.out.println("t && f : " + (true && false));
 		System.out.println("f && t : " + (false && true));
 		System.out.println("f && f : " + (false && false));
-		System.out.println("==============================")
+		System.out.println("==============================");
 		System.out.println("t || t : " + (true || true));
 		System.out.println("t || f : " + (true || false));
 		System.out.println("f || t : " + (false || true));
 		System.out.println("f || f : " + (false || false));
-		System.out.println("==============================")
+		System.out.println("==============================");
 		
 		
 		

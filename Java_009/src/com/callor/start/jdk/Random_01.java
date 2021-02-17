@@ -28,7 +28,7 @@ public class Random_01 {
 		Random ran;
 
 		
-		String str 1 = "Republic of Korea";
+		String str1 = "Republic of Korea";
 		
 
 	}
