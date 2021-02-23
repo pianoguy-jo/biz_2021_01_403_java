@@ -41,8 +41,7 @@ public class Loto {
 			}
 
 		}
-		boolean lotoNum01 = ((num1 != num2) != (num3 != num4) != (num5 != num6));
-		boolean lotoNum02 =  
+		boolean lotoNum01 = ((num1 != num2) != (num3 != num4) != (num5 != num6));		 
 
 	}
 }

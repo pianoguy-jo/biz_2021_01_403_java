@@ -39,25 +39,25 @@ public class Score_02 {
 		int[] intEng = new int[3];
 		int[] intMath = new int[3];
 		
-		for(int intdex = 0 ; index < strName.length ; index++) {
+		for(int intdex = 0 ; intdex < strName.length ; intdex++) {
 			System.out.println("학생이름을 입력하세요;");
-			strName[index] = scan.nextLine();
+			strName[intdex] = scan.nextLine();
 			
 			System.out.println("과목점수를 입력하세요");
 			System.out.print("국어");
 			
 			// 문자열형으로 입력받고
-			String strSubj[index] = scan.nextLine();
+			String strSubj = scan.nextLine();
 			//  문자열형숫자를 정수로 변경하여 저장
-			intKor[index] = Integer.valueOf(strSubj);
+			intKor[intdex] = Integer.valueOf(strSubj);
 			
 			System.out.print("영어");
-			strSubj[index] = scan.nextLine();
-			intEng[index] = Integer.valueOf(strSubj);
+			strSubj = scan.nextLine();
+			intEng[intdex] = Integer.valueOf(strSubj);
 			
 			System.out.print("수학");	
-			String strSubj[index] = scan.nextLine();
-			intMath[index] = Integer.valueOf(strSubj);
+			strSubj = scan.nextLine();
+			intMath[intdex] = Integer.valueOf(strSubj);
 			
 		
 		}
