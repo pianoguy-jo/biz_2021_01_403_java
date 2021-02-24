@@ -9,15 +9,12 @@ public class HomeWork_01 {
 
 		PrimeServiceV2 psV2 = new PrimeServiceV2();
 
-		int rndNum = 0;
-		int result = 0;
 		int numSum = 0;
 		for (int i = 0; i < intNums.length; i++) {
-			rndNum = rnd.nextInt(100) + 1;
-			result = psV2.prime(rndNum);
-			intNums[i] += rndNum;
+			intNums[i] = rnd.nextInt(100) + 1;
+			
 
-			if (result < 0) {
+			if (psV2.prime(intNums[i]) < 0) {
 				System.out.print(intNums[i] + ", ");
 				numSum += intNums[i];
 			}
