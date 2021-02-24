@@ -13,12 +13,12 @@ public class PrimeServiceV2 {
 				
 				// prime() method 실행을 중단하고
 				// main() method에게 -1을 돌려줘라
-				return -1;
+				return num;
 			}
 		}
 		// num 값이 소수이어서  for() 반복문을 모두 수행하고 
 		// 여기에 다다르면 num값을 그대로 return하라
-		return num;
+		return -1;
 		
 		
 		/// num 값이 소수이면 return num
