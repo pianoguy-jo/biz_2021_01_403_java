@@ -27,3 +27,4 @@ public class StudentVO {
 	public int intGrade;// 학과
 
 }
+
