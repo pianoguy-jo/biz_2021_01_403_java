@@ -2,7 +2,7 @@ package com.callor.applications;
 
 import java.util.Scanner;
 
-public class Java_11T {
+public class Score_01T {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		
