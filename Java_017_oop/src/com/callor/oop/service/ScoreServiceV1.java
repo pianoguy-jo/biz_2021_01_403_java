@@ -1,4 +1,4 @@
-package com.callor.oop;
+package com.callor.oop.service;
 
 import java.util.Scanner;
 

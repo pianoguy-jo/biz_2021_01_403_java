@@ -15,6 +15,17 @@ package com.callor.oop.model;
  * setter, getter method 들을 통해서 접근해야 한다.
  * 저장할 때는 : sVO.setStrName("홍길동);
  * 읽을때는 : name = sVO.getStrName();
+ * 
+ * 은직된 인슨턴스 변수는 getter, setter method를 통해서 변수에 접근을 한다
+ * 
+ * 캡슐화
+ *  getter, setter method의 코드를 몰라도
+ *  steIntkor() method는 intKor 인슨턴스 변수에 값을 저장
+ *  getIntKor() method는 intKor 인스턴스변수에서 값을 읽기 기능을 한다는 것을 알수 있다.
+ *  
+ *  코드 내용이 어떠한지 몰라도
+ *  getter와 setter를 통하여 변수에 접근(저장, 읽기) 할 수 있다
+ * 
  */
 
 public class ScoreVO {
@@ -63,14 +74,18 @@ public class ScoreVO {
 	 * 변수에 값을 저장할 때는 setIntEng() method를 통해서 값을 
 	 * 저장하도록 설정한다.
 	 * 
-	 * 이때 setInt뚷() MEthod는 점수를 매개변수로 전달받아서 요효성검사를
+	 * 이때 setIntEng() MEthod는 점수를 매개변수로 전달받아서 요효성검사를
 	 * 수행하고 검사가 통과되었을 때만 intEng 변수에 저장(setting)할수 있도록 만드는 것
 	 * 
 	 */
-	public void setIntEng(String intEng) { //private로 했을 경우값을 저장하는 부분
+	public void setIntEng(String strEng) { //private로 했을 경우값을 저장하는 부분
 		try {
 			int intEng = Integer.valueOf(strEng);
-			if (intEng > 50
+			if (intEng >= 50 && intEng <= 100) {
+				this.intEng = intEng;
+			}
+		} catch (Exception e) {
+			
 		}
 	}
 	

@@ -8,7 +8,7 @@ import com.callor.oop.model.ProductVO1;
 public class Product_01 {
 	
 	public static void main(String args[]) {
-		ProductVO1 prVO = new ProductVO1();
+		ProductVO prVO = new ProductVO();
 		Scanner scan = new Scanner(System.in);
 		
 		System.out.println(prVO.toString());
@@ -26,10 +26,20 @@ public class Product_01 {
 		System.out.println("상품명>> ");
 		prVO.strPName = scan.nextLine();
 		
+		System.out.println("거래처>> ");
+		prVO.strDName = scan.nextLine();		
+		
 		System.out.println("품목>> ");
 		prVO.strItem = scan.nextLine();
 		
+		System.out.println("매입단가>>");
+		prVO.iPrice = scan.nextInt();
+		
+		System.out.println("매출단가>>");
+		prVO.oPrice = scan.nextInt();
+		
 		prVO.toString();
+		
 		
 		
 		
