@@ -7,6 +7,6 @@ public class ex {
 	
 	List<String> game = new ArrayList<String>();
 	
-	game.ad
+	
 
 }
