@@ -2,7 +2,7 @@ package com.callor.cart.servic.impl;
 
 import java.util.Scanner;
 
-public class MenuServiceV1 implements MenuService{
+public class MenuServiceV1 implements MenuServic{
 	
 	private Scanner scan;
 	public MenuServiceV1() {

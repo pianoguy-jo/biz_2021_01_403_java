@@ -1,12 +1,11 @@
 package com.callor.cart.servic;
 
-public interface  MenuServic {
+public interface MenuService {
 	
-	// int 형과 INter형의 차이점
-	// integer형은 null 값을 저장할 수 있다.
-	//inter 정수형만 저장할 수 있다.
-	
-	public Integer  selectMenu();
+	// int형과 Integer형의 차이점
+	// 	  Integer형은 null 값을 저장할수 있다
+	//	  int형은 정수만 저장할수 있다
+	public Integer selectMenu();
 	
 
 }
