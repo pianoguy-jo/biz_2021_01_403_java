@@ -19,9 +19,7 @@ public class CartServiceV1 implements CartService {
 	
 	
 	
-	public void inputCart() {
-		int sum = 0;
-				
+	public void inputCart() {				
 		
 		System.out.println("=============================");
 		System.out.println("장바구니 담기");
@@ -67,15 +65,9 @@ public class CartServiceV1 implements CartService {
 		cartVO1.setProducName(pName);
 		cartVO1.setPrice(pric);
 		cartVO1.setQty(qty);
+		cartVO1.setTotal(pric * qty);
+		
 		cartList.add(cartVO1);
-
-
-
-		
-		// 합계
-		
-		sum = pric * qty;
-		cartVO1.setTotal(sum);		
 	}
 	
 	
