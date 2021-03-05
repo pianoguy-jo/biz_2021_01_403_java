@@ -5,8 +5,14 @@ import java.util.Scanner;
 public class MenuServiceV1 implements MenuServic{
 	
 	private Scanner scan;
+	
 	public MenuServiceV1() {
-		scan = new Scanner();
+		
+		
+		public MenuServiceV1() {
+			scan = new Scanner();
+			
+		}
 	}
 	
 	public Integer selectMenu() {
