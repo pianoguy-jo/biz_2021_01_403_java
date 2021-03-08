@@ -28,6 +28,10 @@ public class ScoreEx_01 {
 		ssV1.savaScoreToFile();
 		ssV1.loadScoreFromFile();
 		ssV1.printScore();
+		
+		
+		
+		
 
 	}
 

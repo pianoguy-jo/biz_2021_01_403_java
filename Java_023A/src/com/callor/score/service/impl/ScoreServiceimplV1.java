@@ -232,11 +232,80 @@ public class ScoreServiceimplV1 implements ScoreService {
 		
 	}
 	
-	@Override
+	private void rankSet() {
+		// list를 내림차순 정렬
+		
+		int nSize = scoreList.size();
+		
+		for ( int i = 0 ; i < nSize ; i++) {
+			for ( int j = i + 1 ; j < nSize ; j++) {
+				
+				if(scoreList.get(i).getTotal() > 
+				scoreList.get(j).getTotal()) {
+					
+					ScoreVO tVO = scoreList.get(i);
+					scoreList.set(i, scoreList.get(j));
+					scoreList.set(i, tVO);
+				}
+			}
+			
+		}
+		for(int i = 0 ; i < nSize ; i++) {
+			
+			ScoreVO vo = scoreList.get(i);
+			vo.setAvg(i);
+		}
+		
+		
+		//
+		for(int i = 0 ; i < nSize ; i++) {
+			
+			for(int j = i + 1 ; j < nSize ; j++) {
+				
+				int num1 = Integer.valueOf(i);// 선생님 코드 확인
+				int num2 = Integer.valueOf(j);
+				
+				if(num1 > num2) {
+					
+					ScoreVO temp = scoreList.get(i);
+					scoreList.set(i, scoreList.get(j));
+					scoreList.set(i, temp);
+					
+					
+				}
+				
+			}
+		}
+		
+		// 문자열 비교 method를 사용하여 정렬
+		
+		for(int i = 0; i < nSize; i++) {
+			
+			for(int j = i + 1; j < nSize; j++) {
+				ScoreVO voI = scoreList.get(i);
+				ScoreVO voJ = scoreList.get(j);
+				
+				// voJ의 학번이 뒷번호인 경우
+				if(voI.getStNme().compareTo(voJ.getStNme())>0) {
+					
+					ScoreVO tVo = scoreList.get(i);
+					scoreList.set(i, scoreList.get(j));
+					scoreList.set(j, tVo);
+					
+				}
+			}
+		}
+	}
+	
+	
+	
 	public void printScore() {
 		
 		// 출력전 총점 평균 계산
 		this.totalAndAvg();
+		
+		// 출력전 순위 생성
+		this.rankSet();
 		
 		System.out.println(Values.dLine);
 		System.out.println("빛나라 고교 성적처리 시스템 2021");
