@@ -10,7 +10,8 @@ public class Loo9VO {
 	private int iPrice;//매입단가
 	private int uPrice;//매출단가
 	private int qty;// 수량
-	
+	private int totalIPrice;//매입금액
+	private int totalUPrice;//판매금액
 	
 	
 	public Loo9VO() {
@@ -21,7 +22,7 @@ public class Loo9VO {
 	
 	
 	public Loo9VO(String date, String proName, String corrName, String ceoName, int diviNum, int iPrice, int uPrice,
-			int qty) {
+			int qty, int totalIPrice, int totalUPrice) {
 		super();
 		this.date = date;
 		this.proName = proName;
@@ -31,6 +32,8 @@ public class Loo9VO {
 		this.iPrice = iPrice;
 		this.uPrice = uPrice;
 		this.qty = qty;
+		this.totalIPrice = totalIPrice;
+		this.totalUPrice = totalUPrice;
 	}
 
 
@@ -83,13 +86,24 @@ public class Loo9VO {
 	public void setQty(int qty) {
 		this.qty = qty;
 	}
+	public int getTotalIPrice() {
+		return totalIPrice;
+	}
+	public void setTotalIPrice(int totalIPrice) {
+		this.totalIPrice = totalIPrice;
+	}
+	public int getTotalUPrice() {
+		return totalUPrice;
+	}
+	public void setTotalUPrice(int totalUPrice) {
+		this.totalUPrice = totalUPrice;
+	}
 	@Override
 	public String toString() {
 		return "Loo9VO [date=" + date + ", proName=" + proName + ", corrName=" + corrName + ", ceoName=" + ceoName
-				+ ", diviNum=" + diviNum + ", iPrice=" + iPrice + ", uPrice=" + uPrice + ", qty=" + qty + "]";
+				+ ", diviNum=" + diviNum + ", iPrice=" + iPrice + ", uPrice=" + uPrice + ", qty=" + qty
+				+ ", totalIPrice=" + totalIPrice + ", totalUPrice=" + totalUPrice + "]";
 	}
-	
-	
 	
 	
 
