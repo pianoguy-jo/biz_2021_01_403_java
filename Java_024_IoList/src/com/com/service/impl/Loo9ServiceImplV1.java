@@ -31,8 +31,7 @@ public class Loo9ServiceImplV1 implements Loo9Service {
 
 			fileReader = new FileReader(productList);
 			buffer = new BufferedReader(fileReader);
-			String reader = buffer.readLine();
-
+			String reader = buffer.re
 			if (reader == null) {
 				return;
 				// break;
