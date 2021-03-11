@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+import com.callor.oop.medel.CartVO;
+
 public class CartList_04 {
 
 	public static void main(String[] args) {
@@ -24,7 +26,9 @@ public class CartList_04 {
 			 * 가장 마지막에 저장한 데이터로 모든 리스트가 같아져 버린다.
 			 */
 			
-			cartVO = new CartVO();
+			CartVO cartVO = new CartVO();			
+			cartVO.setCartUserName(strName);
+			cartList.add(cartVO);
 			
 			
 		}
