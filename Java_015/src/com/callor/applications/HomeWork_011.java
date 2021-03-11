@@ -2,6 +2,8 @@ package com.callor.applications;
 
 import java.util.Random;
 
+import com.callor.applications.service.PrimeServiceV2;
+
 public class HomeWork_011 {
 	public static void main(String[] args) {
 		Random rnd = new Random();

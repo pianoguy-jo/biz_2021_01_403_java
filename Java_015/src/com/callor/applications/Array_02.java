@@ -14,17 +14,17 @@ public class Array_02 {
 		}
 		
 		Scanner scan = new Scanner(System.in);
+		System.out.println("1 ~ 10 까지 정수 입력");
+		System.out.println("숫자 >>");
+		int keyNum = scan.nextInt();
 		
-		
-		
+		System.out.printf("값 %가 저장된 위치!!\n", keyNum);
 		for(int positon = 0 ; positon < intNums.length ; positon++) {
 			if(intNums[positon] == keyNum){
 				System.out.print(positon);
 			}
 			
-		}
-		
-		
+		}		
 	}
 	/*
 	 * public static void main(String[] args) { Random rnd = new Random(); Scanner

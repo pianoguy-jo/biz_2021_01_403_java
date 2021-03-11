@@ -15,7 +15,8 @@ public class Score_04 {
 		 홍길동성적.intMusic = 77;
 		 홍길동성적.intHistory = 77;
 		 
-		 int sum = ssV2.scoreSum(0, 0, 0, 0, 0, 0);
+		 int sum = ssV2.scoreSum(홍길동성적);
+		 System.out.println("총점 : " + sum);
 		 
 	}
 

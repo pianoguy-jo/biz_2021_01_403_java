@@ -52,35 +52,41 @@ public class Array_01 {
 			intNums[i] = rnd.nextInt(10) + 1;
 		}
 		
-		
-		/* Scanner scan = new Scanner(System.in);
-		 * Random ran = new Random();
-
-		* // 100개 요소 저장할 수 있는 정수형 배열 선언 및 생성
-		* int[] intNums = new int[100];
-
-		// 100개 정수형 배열에 랜덤수 저장
-		for (int i = 0; i < intNums.length; i++) {
-			intNums[i] = ran.nextInt(10) + 1;
-		}
-
-		// 찾고자 하는 숫자 입력
-		System.out.print("숫자를 입력하시요 >> ");
-		int num = scan.nextInt();
-
-		// 입력된 숫자 검색
-		int count = 0;
-		for (int i = 0; i < intNums.length; i++) {
-			boolean bint = intNums[i] == num;
-
-			// 입력된 숫자와 같을 때 카운트
-			if (bint) {
-				count += 1;
-				//System.out.print(count + "회 : ");
-				//System.out.println(intNums[i]);
-			}
-		}
-		// 카운트된 갯수 출력
-		System.out.println("입력한 수 " + num + " 갯수 : " + count);
-	}*/
+	}
 }
+	
+	
+		
+		
+	   /*
+		* Scanner scan = new Scanner(System.in);
+		*Random ran = new Random();
+		*
+		*  100개 요소 저장할 수 있는 정수형 배열 선언 및 생성
+		* int[] intNums = new int[100] ;
+		*
+		* 100개 정수형 배열에 랜덤수 저장
+		*for (int i = 0; i < intNums.length; i++) {
+		*intNums[i] = ran.nextInt(10) + 1;
+		*}
+		*
+		* 찾고자 하는 숫자 입력
+		*System.out.print("숫자를 입력하시요 >> ");
+		*int num = scan.nextInt();
+		*
+		* 입력된 숫자 검색
+		*int count = 0;
+		*for (int i = 0; i < intNums.length; i++) {
+		*boolean bint = intNums[i] == num;
+		*
+		* 입력된 숫자와 같을 때 카운트
+		*if (bint) {
+		*count += 1;
+		*System.out.print(count + "회 : ");
+		*System.out.println(intNums[i]);
+		*}
+		*}
+		*카운트된 갯수 출력
+		*System.out.println("입력한 수 " + num + " 갯수 : " + count);
+		*/
+

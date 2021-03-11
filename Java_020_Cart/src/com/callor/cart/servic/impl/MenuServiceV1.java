@@ -2,17 +2,18 @@ package com.callor.cart.servic.impl;
 
 import java.util.Scanner;
 
-public class MenuServiceV1 implements MenuServic{
+import com.callor.cart.servic.MenuService;
+
+public class MenuServiceV1 implements MenuService{
 	
 	private Scanner scan;
 	
 	public MenuServiceV1() {
 		
+		scan = new Scanner(System.in);
 		
-		public MenuServiceV1() {
-			scan = new Scanner();
-			
-		}
+		
+		
 	}
 	
 	public Integer selectMenu() {
@@ -39,17 +40,14 @@ public class MenuServiceV1 implements MenuServic{
 					
 				} catch (Exception e) {
 					
-					System.out.println("메뉴 선택은 Q, ");
+					System.out.println("메뉴 선택은 Q, 1 ~ 3까지 정수만 가능");
 					// TODO: handle exception
 				}
 			}
-					
-					
 			
+			return null;
 			
 		}
-		
-		return null;
 		
 	}
 	

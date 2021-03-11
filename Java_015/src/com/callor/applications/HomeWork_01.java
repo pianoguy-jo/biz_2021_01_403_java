@@ -2,6 +2,8 @@ package com.callor.applications;
 
 import java.util.Random;
 
+import com.callor.applications.service.PrimeServiceV2;
+
 public class HomeWork_01 {
 	/*
 	 * 2 이상의 임의의 정수 100를 만들고 PrimeServiceV2의 prime() method 호출하여 임의의 정수 100개중 소수인

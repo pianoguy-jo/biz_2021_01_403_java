@@ -20,7 +20,8 @@ public class Exception_02 {
 			intNum = Integer.valueOf(strNum);
 		} catch (NumberFormatException e) {
 			System.out.println("반드시 숫자만 입력하세요");
-			continue;
+			
+			//continue;
 		}
 
 		if (intNum < 0) {
@@ -28,7 +29,7 @@ public class Exception_02 {
 			System.out.println("0 이상 값만 입력하세요");
 		} else {
 			System.out.println("입력값 : " + intNum);
-			break;
+			//break;
 		}
 	}
 

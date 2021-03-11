@@ -22,7 +22,7 @@ public class Score_02 {
 		scoreVO.strName = strName;
 
 		scoreVO.setIntKor(ssV1.inputScore("국어") + "");
-		scoreVO.setIntEng(ssV1.inputScore("영어") + "");
+		//scoreVO.setIntEng(ssV1.inputScore("영어" + "");
 		// scoreVO.intMath = ssV1.inputScore("수학");
 
 	}
